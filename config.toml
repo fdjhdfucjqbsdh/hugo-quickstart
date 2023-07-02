@@ -1,23 +1,4 @@
-baseURL: "https://nightswinger.github.io/hugo-theme-coyote/"
-title: COYOTE
-paginate: 9
-theme: coyote
-
-# params:
-#   profile:
-#     enabled: true
-#     name: John Doe
-#     description: I've got something to tell you now, Walkman
-#   social:
-#     - name: github
-#       url: https://github.com/nightswinger/hugo-theme-coyote
-
-menu:
-  main:
-    - identifier: search
-      name: Search
-      url: search/
-outputs:
-    home:
-        - HTML
-        - JSON
+baseURL = 'http://hugo-quickstart-template.netlify.com'
+languageCode = 'en-us'
+title = 'Netlify + Hugo Quickstart'
+theme = 'netlify-basic'
